@@ -1,0 +1,117 @@
+
+body{
+    background: rgba(255, 252, 252, 0.973);
+    font-family: sans-serif;
+}
+
+
+header{
+    background: rgba(112, 114, 114, 0.178);
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.buscador{
+    position: relative;
+    font-size: 14px;
+    left:5%;
+    width: 50%;
+    height: 35px;
+    border:none;
+    outline:none;
+    border:1px solid rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 15%;
+    display: inline;
+    margin:15px 2.5%;
+}
+
+.btn_sesion, .btn_registro{
+    float: right;
+    color:rgb(255, 255, 255);
+    background: rgb(0, 153, 255);
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+    font-size:15px;
+    margin:20px 5px;
+}
+.btn_sesion{
+    margin-right: 20px;
+}
+.btn_sesion:hover, .btn_registro:hover{
+    background: rgb(0, 162, 255);
+}
+
+/*----------------------------------Banner---------------------*/
+.banner{
+    background: rgba(104, 104, 104, 0.26);
+    width: 100%;
+    height: 300px;
+    
+}
+
+.banner img{
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,0%);
+    width: 700px;
+    height: 300px;
+}
+
+/*------------------------Section---------*/
+section{
+    width: 80%;
+    margin:30px 10%;
+}
+.producto_principal{
+    background: white;
+    display:inline-block;
+    width: 22.5%;;
+    height:350px;
+    border:1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+    margin:10px 0.5%;
+    padding:10px;
+    cursor:pointer;
+}
+
+.titulo_pruducto{
+    color:rgb(85, 88, 90);
+    text-align: center;
+    font-size:16px;
+    margin:15px 0px;
+    font-weight: bold;
+}
+.img_producto{
+    width: 100%;
+    height:200px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    margin-bottom: 5px;
+}
+.precio_producto{
+    color:rgb(0,0,0);
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.cuota_producto{
+    display:block;
+    color:rgb(0,0,0);
+    margin-left: 10px;
+    font-weight: bold;
+}
+.envio_producto{
+    float: right;
+    color:#0ba52d;
+    margin-right: 10px;
+    
+}
